@@ -1,39 +1,47 @@
 package com.gl.assignmentSolution.base_class;
 
+import com.gl.assignmentSolution.service.IDepartmentServices;
+
 /*
 
-Class SuperDepartment is Base class for all other departments
+Class SuperDepartment is Base class for all other departments 
+implementing interface IDepartmentServices to implement common methods
 
 */
 
-public class SuperDepartment {
+public class SuperDepartment implements IDepartmentServices {
 
 	/*
-	 * Method 1 with no parameters and return type String
+	 * Implementation of departmentName Method of interface
 	 */
-	protected String departmentName() {
-
+	@Override
+	public String departmentName() {
+		// TODO Auto-generated method stub
 		return "Super Department";
 	}
 
 	/*
-	 * Method 2 with no parameters and return type String
+	 * Implementation of getTodaysWork Method of interface
 	 */
-	protected String getTodaysWork() {
-
+	@Override
+	public String getTodaysWork() {
+		// TODO Auto-generated method stub
 		return "No Work as of now";
+
 	}
 
 	/*
-	 * Method 3 with no parameters and return type String
+	 * Implementation of getWorkDeadline Method of interface
 	 */
-	protected String getWorkDeadline() {
-
+	@Override
+	public String getWorkDeadline() {
+		// TODO Auto-generated method stub
 		return "Nil";
+
 	}
 
 	/*
-	 * Method 4 with no parameters and return type String
+	 * Own method of class with String return type
 	 */
 	public String isTodayAHoliday() {
 
