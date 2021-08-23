@@ -1,5 +1,14 @@
 package com.gl.assignmentSolution.sub_class;
 
-public class HrDepartment {
+import com.gl.assignmentSolution.base_class.SuperDepartment;
+
+
+/*
+
+Class HrDepartment is Sub class of SuperDepartment
+
+*/
+
+public class HrDepartment extends SuperDepartment {
 
 }
