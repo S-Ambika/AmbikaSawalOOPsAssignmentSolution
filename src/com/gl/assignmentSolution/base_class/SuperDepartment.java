@@ -1,6 +1,6 @@
 package com.gl.assignmentSolution.base_class;
 
-import com.gl.assignmentSolution.service.IDepartmentServices;
+import com.gl.assignmentSolution.common.IDepartmentCommonMethods;
 
 /*
 
@@ -9,7 +9,7 @@ implementing interface IDepartmentServices to implement common methods
 
 */
 
-public class SuperDepartment implements IDepartmentServices {
+public class SuperDepartment implements IDepartmentCommonMethods {
 
 	/*
 	 * Implementation of departmentName Method of interface

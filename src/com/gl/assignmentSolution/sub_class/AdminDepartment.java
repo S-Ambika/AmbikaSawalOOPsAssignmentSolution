@@ -1,7 +1,7 @@
 package com.gl.assignmentSolution.sub_class;
 
 import com.gl.assignmentSolution.base_class.SuperDepartment;
-import com.gl.assignmentSolution.service.IDepartmentServices;
+import com.gl.assignmentSolution.common.IDepartmentCommonMethods;
 
 /*
 
@@ -10,11 +10,10 @@ implementing interface IDepartmentServices to implement common methods
 
 */
 
-public class AdminDepartment extends SuperDepartment implements IDepartmentServices {
+public class AdminDepartment extends SuperDepartment implements IDepartmentCommonMethods {
 
-	
 	/*
-	 * constructor to invoke super method i.e referring to Parent's  method
+	 * constructor to invoke super method i.e referring to Parent's method
 	 */
 	public AdminDepartment() {
 		System.out.println(super.isTodayAHoliday());
