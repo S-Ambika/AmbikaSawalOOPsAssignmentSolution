@@ -31,7 +31,7 @@ public class Main {
 		System.out.println(adminDepartment.getWorkDeadline() + "\n");
 
 		/*
-		 * calling super class method
+		 *  another way of calling super class method if not invoked using constructor
 		 */
 		// System.out.println(admindepartment.isTodayAHoliday());
 
@@ -48,6 +48,7 @@ public class Main {
 		System.out.println(hrDepartment.getTodaysWork());
 		System.out.println(hrDepartment.getWorkDeadline());
 		System.out.println(hrDepartment.doActivity() + "\n");
+
 
 	}
 

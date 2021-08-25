@@ -5,7 +5,7 @@ import com.gl.assignmentSolution.common.IDepartmentCommonMethods;
 /*
 
 Class SuperDepartment is Base class for all other departments 
-implementing interface IDepartmentServices to implement common methods
+implementing interface IDepartmentCommonMethods to implement common methods
 
 */
 
@@ -17,7 +17,7 @@ public class SuperDepartment implements IDepartmentCommonMethods {
 	@Override
 	public String departmentName() {
 		// TODO Auto-generated method stub
-		return "Super Department";
+		return "Welcome to Super Department";
 	}
 
 	/*

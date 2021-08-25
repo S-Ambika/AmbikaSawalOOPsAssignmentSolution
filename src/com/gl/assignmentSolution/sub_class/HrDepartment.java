@@ -6,7 +6,7 @@ import com.gl.assignmentSolution.common.IDepartmentCommonMethods;
 /*
 
 Class HrDepartment is Sub class of SuperDepartment
-implementing interface IDepartmentServices to implement common methods
+implementing interface IDepartmentCommonMethods to implement common methods
 
 */
 
@@ -25,7 +25,7 @@ public class HrDepartment extends SuperDepartment implements IDepartmentCommonMe
 	@Override
 	public String departmentName() {
 		// TODO Auto-generated method stub
-		return "Hr Department";
+		return "Welcome to Hr Department";
 	}
 
 	/*

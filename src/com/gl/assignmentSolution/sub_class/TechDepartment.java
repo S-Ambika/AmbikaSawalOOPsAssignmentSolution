@@ -6,7 +6,7 @@ import com.gl.assignmentSolution.common.IDepartmentCommonMethods;
 /*
 
 Class TechDepartment is Sub class of SuperDepartment
-implementing interface IDepartmentServices to implement common methods
+implementing interface IDepartmentCommonMethods to implement common methods
 
 */
 
@@ -25,7 +25,7 @@ public class TechDepartment extends SuperDepartment implements IDepartmentCommon
 	@Override
 	public String departmentName() {
 		// TODO Auto-generated method stub
-		return "Tech Department";
+		return "Welcome to Tech Department";
 	}
 
 	/*

@@ -1,7 +1,7 @@
 package com.gl.assignmentSolution.common;
 
 /*
- * interface having methods that will be implemented in super and sub classes  
+ * interface having common methods that will be implemented in super and sub classes  
  */
 
 public interface IDepartmentCommonMethods {

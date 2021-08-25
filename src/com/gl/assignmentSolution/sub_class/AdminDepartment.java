@@ -6,7 +6,7 @@ import com.gl.assignmentSolution.common.IDepartmentCommonMethods;
 /*
 
 Class AdminDepartment is Sub class of SuperDepartment
-implementing interface IDepartmentServices to implement common methods
+implementing interface IDepartmentCommonMethods to implement common methods
 
 */
 
@@ -25,7 +25,7 @@ public class AdminDepartment extends SuperDepartment implements IDepartmentCommo
 	@Override
 	public String departmentName() {
 		// TODO Auto-generated method stub
-		return "Admin Department";
+		return "Welcome to Admin Department";
 	}
 
 	/*
