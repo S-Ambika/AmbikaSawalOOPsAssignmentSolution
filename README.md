@@ -17,3 +17,37 @@ e) Create constructor in AdminDepartment, HrDepartment, TechDepartment classes t
 e) Create Main class that will contain psvm method and create objects of AdminDepartment, HrDepartment, TechDepartment classes
 
 f) Call methods using objects and run to get desired output.
+
+Output
+
+Today is not a holiday
+
+Welcome to Admin Department
+
+Complete your documents Submission
+
+Complete by EOD
+
+........................
+
+Today is not a holiday
+
+Welcome to Hr Department
+
+Fill today’s worksheet and mark your attendance
+
+Complete by EOD
+
+team Lunch
+
+..........................
+
+Today is not a holiday
+
+Welcome to Tech Department
+
+Complete coding of module 1
+
+Complete by EOD
+
+core Java
