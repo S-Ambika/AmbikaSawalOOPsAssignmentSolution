@@ -1,6 +1,7 @@
 # AmbikaSawalOOPsAssignmentSolution
 
 ALGORITHM
+
 a) Create different packages according to nature & use of Classes
 
 b) Create Classes
